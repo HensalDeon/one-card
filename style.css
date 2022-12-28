@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 2.5;
+    color: #212529;
+    text-align: left;
+    background-color: #000;
+}
+.fixed-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+.navbar-expand-lg{
+    display: none;
+}
+.navbar-brand{
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    margin-left: 0.75rem;
+    font-size: 1.25rem;
+}
+.navbar-brand img {
+    vertical-align: middle;
+    border-style: none;
+ 
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+a.btn-sm {
+    font-weight: 700;
+    color: #fff;
+    background: #1893f7;
+}
+a.btn-sm:hover{
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+a.btn-main{
+    padding: 0 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #ffffff !important;
+    outline: none;
+}
+
+.btn-main {
+    width: 15.18rem;
+    height: 3.375rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.56;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #1893f7;
+}
+a.btn-main-md {
+    padding: 7px 5px;
+    border-radius: 10px;
+    width: 8.954rem;
+    height: 2.688rem;
+    font-weight: 600;
+    font-size: 1rem;
+    background-image: linear-gradient(to bottom,#217ee6,#2498e3);
+    color: #fff;
+    outline: none;
+}
+
+.navbar-nav{
+    align-items: center;
+    font-weight: 500;
+    margin-left: auto!important;
+}
+.navbar-toggler{
+     margin-left: auto!important;
+}
+.collapse{
+    display: block;
+ 
+}
+.container-fluid{
+    margin-top: 0.7%;
+}
+.nav-link {
+    margin: 4px;
+    color: black !important;
+    font-weight: 600;
+    padding-block: 1rem;
+}
+.nav-item{
+    font-size: 17px;
+}
+.navbar-nav a{
+    padding-right: 1rem;
+}
+.section {
+    padding: 50px 0;
+}
+#IntroducingOneCard {
+    font-size: 4rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+#TeamMetal {
+    font-size: 2.3rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+#Tagline {
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+    
+}
+#Tagline p{
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 25px;
+    color: grey;
+    margin-bottom: 0;
+    color: #2c2c2c;
+}
+
+#FeesText{
+    text-align: center;
+}
+.gradient-text {
+    background-color: red;
+    background-image: linear-gradient(92deg,#217ee6 3%,#3187d5 44%,#69a798 70%,#fcf2a6 95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+    font-weight: 600;
+}
+#FeesText {
+    font-family: Manrope;
+    display: block;
+    font-size: 3rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+
+#PowerApp {
+    font-family: Manrope;
+    display: block;
+    font-size: 4rem;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: right;
+    color: #000;
+}
+#PowerAppText {
+    font-family: Manrope;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: right;
+    color: #696969;
+}
+#Metal {
+    font-family: Manrope;
+    display: block;
+    font-size: 4rem;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+#MetalText {
+    font-family: Manrope;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #696969;
+}
+
+a.btn-main-md:hover{
+    color: white !important;
+}
+#Reward{
+    font-family: Manrope;
+    display: block;
+    font-size: 3rem;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+#RewardText {
+    font-family: Manrope;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #696969;
+}
+#EMI {
+    font-family: Manrope;
+    display: block;
+    font-size: 3rem;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: right;
+    color: #000;
+}
+#EmiAppText {
+    font-family: Manrope;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: right;
+    color: #696969;
+}
+#Family {
+    font-family: Manrope;
+    display: block;
+    font-size: 3rem;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+#FamilyText {
+    font-family: Manrope;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #696969;
+}
+#FromTheBlog {
+    font-family: Manrope;
+    font-size: 4rem;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.31;
+    letter-spacing: normal;
+    text-align: center;
+}
+.blog-image {
+    box-shadow: 0 0 3px rgb(0 0 0 / 16%);
+    border-radius: 10px;
+}
+.post-title {
+    font-size: 17px;
+    line-height: normal;
+    color: #646464!important;
+    font-weight: 600;
+    text-decoration: none;
+}
+#Investors {
+    font-family: Manrope;
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+#InvestorsText {
+    font-family: Manrope;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #696969;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.investors .block {
+    margin-bottom: 30px;
+}
+.investors .block .image img {
+    width: 100%;
+    border-radius: 8px;
+}
+.hover-zoom {
+    overflow: hidden;
+    border-radius: 8px;
+}
+.hover-zoom img{
+    transition: transform .4s;
+}
+.hover-zoom img:hover{
+    transform: scale(1.2);
+}
+.footer-main {
+    padding: 30px 0;
+    background: #0c161b;
+}
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+.footer-main .block img {
+    margin-bottom: 20px;
+}
+.footer-main .block img {
+    margin-bottom: 20px;
+}
+#Ears {
+    font-family: Manrope;
+    font-size: 2.188rem;
+    font-weight: 800;
+    line-height: 1.34;
+    text-align: center;
+    color: #0093f7;
+}
+#NewKid {
+    font-family: Manrope;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.3;
+    text-align: center;
+    color: #fff;
+}
+#FollowUs {
+    font-family: Manrope;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.3;
+    text-align: center;
+    color: #fff;
+}
+.text-primary{
+    color: #007bff;
+    text-decoration: none;
+}
