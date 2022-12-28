@@ -91,6 +91,9 @@ a.btn-main-md {
 }
 .navbar-toggler{
      margin-left: auto!important;
+     border: none !important;
+     outline: none !important;
+     color: transparent !important;
 }
 .collapse{
     display: block;
